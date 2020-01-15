@@ -11,7 +11,7 @@ This markdown file is on a study from GEO that used blood samples from day 0,1,3
 
 The study can be linked to by visiting: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120717 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120719
 
-
+For more knowledge on the safety and effectiveness of the flu vaccines, which vaccines are given for 2019-2020 flu season, who benefits and are containdicated, visit: https://www.cdc.gov/flu/prevent/nasalspray.htm 
 ```{r}
 flu <- read.csv('fluSamples.csv', sep=',', header=TRUE, na.strings=c('',' '))
 platform <- read.delim('GPL13158-5065.txt', sep='\t', header=TRUE,
